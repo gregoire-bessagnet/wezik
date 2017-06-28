@@ -1,4 +1,4 @@
-var app = angular.module('JukeTubeApp', []);
+var app = angular.module('WeZikApp', []);
 
 // Run
 
@@ -202,7 +202,7 @@ app.controller('VideosController', function ($scope, $http, $log, VideosService)
     $scope.search = function () {
       $http.get('https://www.googleapis.com/youtube/v3/search', {
         params: {
-          key: 'AIzaSyD2K6OooNWMPgEWlkAkgAIRctksFyKk1vY',
+          key: 'AIzaSyDBbdRnw6LdG0HWzK1WJ12eNtzZSQST-Fo',
           type: 'video',
           maxResults: '8',
           part: 'id,snippet',
